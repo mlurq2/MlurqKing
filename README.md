@@ -1,6 +1,6 @@
-# LectureKing: Autonomous AI Anki Deck Generator 👑
+# MlurqKing: Intelligent AI Anki Deck Generator 👑
 
-LectureKing is an open-source, multi-agent AI pipeline designed to automatically convert medical school lecture slides and transcripts into highly rigorous, SuperMemo-compliant, and color-coded Anki flashcards (`.apkg`).
+MlurqKing is an open-source, multi-agent AI pipeline designed to automatically convert medical school lecture slides and transcripts into highly-yield, informative, and color-coded Anki flashcards (`.apkg`).
 
 It uses a 4-agent architecture to extract high-yield concepts, prevent "giveaway" autocomplete clozes, format them with strict semantic HTML color rules, and dynamically embed high-resolution slide images onto the back of the cards.
 
@@ -40,7 +40,7 @@ It uses a 4-agent architecture to extract high-yield concepts, prevent "giveaway
 ### Step 2: Run the AI Agents
 You can run this using any advanced LLM. Here is how to do it in **Claude** (highly recommended via Claude Projects):
 
-1. **Create a Project**: Go to Claude and create a new Project named "LectureKing".
+1. **Create a Project**: Go to Claude and create a new Project.
 2. **Upload Knowledge**: Upload the 4 agent markdown files from the `prompts/` folder into the "Project Knowledge" section.
 3. **Start a Chat**: Upload your `transcript.txt` and `slides_ocr_text.txt` to the chat.
 4. **Execute**: Ask Claude to run the 4 agents sequentially. 
