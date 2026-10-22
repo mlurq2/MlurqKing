@@ -1,13 +1,13 @@
-# LectureKing: Autonomous Medical School Anki Generator 👑
+# MlurqKing: Autonomous Medical School Anki Generator 👑
 
 [![Anki](https://img.shields.io/badge/Anki-Compatible-blue.svg)](https://apps.ankiweb.net/)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-brightgreen.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Architecture: v2.1](https://img.shields.io/badge/Architecture-v2.1%20Classmate--Refined-purple.svg)](PIPELINE_SPECS.md)
 
-**LectureKing (MlurqKing)** is an autonomous multi-agent AI pipeline designed to convert medical school lecture slides and audio transcripts into high-yield, exam-tested, SuperMemo-compliant Anki flashcards (`.apkg`) with embedded high-resolution 150 DPI slide captures.
+**MlurqKing** is an autonomous multi-agent AI pipeline designed to convert medical school lecture slides and audio transcripts into high-yield, exam-tested, SuperMemo-compliant Anki flashcards (`.apkg`) with embedded high-resolution 150 DPI slide captures.
 
-Designed by a medical student for medical students, LectureKing eliminates 4+ hours of manual card creation per lecture while optimizing flashcards for rapid **5–8 second reflex recall**.
+Designed by a medical student for medical students, MlurqKing eliminates 4+ hours of manual card creation per lecture while optimizing flashcards for rapid **5–8 second reflex recall**.
 
 ---
 
@@ -15,7 +15,7 @@ Designed by a medical student for medical students, LectureKing eliminates 4+ ho
 
 The **v2.1 architecture** solves the two greatest flaws of traditional AI flashcard generators: **low-yield trivia bloat** and **paragraph-long reading fatigue**.
 
-| Feature | Legacy Generators / v1 (OG) | LectureKing v2.1 (Current) |
+| Feature | Legacy Generators / v1 (OG) | MlurqKing v2.1 (Current) |
 | :--- | :--- | :--- |
 | **Testability Filter** | Equal weight to slides & audio (creates cards on every unmentioned slide bullet) | **Transcript-Gated Filter**: Spoken transcript is the strict gatekeeper. Skipped slide bullets are dropped entirely. |
 | **Review Speed** | 20–35 seconds per card (dense textbook paragraphs) | **5–8 seconds per card** (Rapid clinical reflex testing). |
