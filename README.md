@@ -151,5 +151,5 @@ This repository supports three codified architectures detailed in [`PIPELINE_SPE
 ---
 
 ## 👨‍⚕️ Author & Philosophy
-Built by **Mustafa Lurq** ([@mlurq2](https://github.com/mlurq2)).  
+Built by **Mustafah Qureshi** ([@mlurq2](https://github.com/mlurq2)).  
 *Medical school is a marathon of active recall. Stop spending 4 hours manually formatting cards, and start mastering high-yield clinical pivots.*
